@@ -1,12 +1,39 @@
-# React + Vite
+# 🖼️ AI Image Enhancer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based web application that uses AI to enhance and improve the quality of images. Built with Vite for lightning-fast performance and modular code structure.
 
-Currently, two official plugins are available:
+<!-- ![AI Image Enhancer Screenshot](./screenshot.png)  -->
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📷 Upload images from your device
+- 🧠 Enhance images using AI algorithms
+- 💾 Download the enhanced images
+- ⚡️ Built with React + Vite for blazing-fast development
+- 🎨 Clean, modern UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Tailwind]()
+<!-- - [Your AI API or Library Name here] -->
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/vishh2dev/Ai-image-enhancer.git
+cd Ai-image-enhancer
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
