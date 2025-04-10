@@ -9,40 +9,38 @@ const ImagePreview = (props) => {
                     Original Image
                 </h2>
 
-                {props.uploaded ? (
-                    <img
-                        src={props.uploaded}
-                        alt=""
-                        className="w-full h-full object-cover"
-                    />
-                ) : (
-                    <div className="flex items-center justify-center h-80 bg-gray-200">
-                        No Image Selected
-                    </div>
-                )}
+                <div className="h-80 w-full bg-gray-100 flex items-center justify-center">
+                    {props.uploaded ? (
+                        <img
+                            src={props.uploaded}
+                            alt="Original"
+                            className="w-full h-full object-cover"
+                        />
+                    ) : (
+                        <div className="text-gray-500">No Image Selected</div>
+                    )}
+                </div>
             </div>
 
-            {/* Enhanced Image Image */}
+            {/* Enhanced Image */}
             <div className="bg-white shadow-lg rounded-xl overflow-hidden">
                 <h2 className="text-xl font-semibold text-center bg-blue-800 text-white py-2">
                     Enhanced Image
                 </h2>
 
-                {props.enhanced && !props.loading && (
-                    <img
-                        src={props.enhanced}
-                        alt=""
-                        className="w-full h-full object-cover"
-                    />
-                )}
-
-                {props.loading ? (
-                    <Loading />
-                ) : (
-                    <div className="flex items-center justify-center h-80 bg-gray-200">
-                        No Enhanced Image
-                    </div>
-                )}
+                <div className="h-80 w-full bg-gray-100 flex items-center justify-center">
+                    {props.loading ? (
+                        <Loading />
+                    ) : props.enhanced ? (
+                        <img
+                            src={props.enhanced}
+                            alt="Enhanced"
+                            className="w-full h-full object-cover"
+                        />
+                    ) : (
+                        <div className="text-gray-500">No Enhanced Image</div>
+                    )}
+                </div>
             </div>
         </div>
     );
