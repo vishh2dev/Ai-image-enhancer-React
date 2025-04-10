@@ -2,16 +2,16 @@
 
 A modern React-based web application that uses AI to enhance and improve the quality of images. Built with Vite for lightning-fast performance and modular code structure.
 
-<!-- ![AI Image Enhancer Screenshot](./screenshot.png)  -->
+![AI Image Enhancer Screenshot](./screenshot.png) 
 ---
 
 ## 🚀 Features
 
 - 📷 Upload images from your device
-- 🧠 Enhance images using AI algorithms
-- 💾 Download the enhanced images
-- ⚡️ Built with React + Vite for blazing-fast development
-- 🎨 Clean, modern UI
+- 🧠 Enhance images using AI via external API
+- 💾 Download enhanced images
+- 🔐 Secure API key handling via environment variables
+- ⚡️ Built with React + Vite for performance and simplicity
 
 ---
 
